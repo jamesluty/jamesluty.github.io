@@ -15,10 +15,14 @@ import mysql_icon from '../imgs/mysql_icon.png';
 import mongodb_icon from '../imgs/mongodb_icon.png';
 import json_icon from '../imgs/json_icon.png';
 import git_icon from '../imgs/git_icon.png';
+import jenkins_icon from '../imgs/jenkins_icon.png';
+import jira_icon from '../imgs/jira_icon.png';
+import confluence_icon from '../imgs/confluence_icon.png';
+import postman_icon from '../imgs/postman_icon.png';
 
 const Skills = () => {
     return (
-        <div>
+        <div id="skills">
             <h1 className="skillsBanner" style={{backgroundImage: `url(${skills_bg})`}}>Skills</h1>
             <div>
                 <h1 className="skillsHeader">Languages</h1>
@@ -129,6 +133,30 @@ const Skills = () => {
                                 <img src={git_icon} alt="git" className="icon"/>
                             </div>
                             <h2 className="skillName">GIT</h2>
+                        </div>
+                        <div className="skillsIcon">
+                            <div className="iconDiv">
+                                <img src={jenkins_icon} alt="jenkins" className="icon"/>
+                            </div>
+                            <h2 className="skillName">Jenkins</h2>
+                        </div>
+                        <div className="skillsIcon">
+                            <div className="iconDiv">
+                                <img src={jira_icon} alt="jira" className="icon"/>
+                            </div>
+                            <h2 className="skillName">Jira</h2>
+                        </div>
+                        <div className="skillsIcon">
+                            <div className="iconDiv">
+                                <img src={confluence_icon} alt="confluence" className="icon"/>
+                            </div>
+                            <h2 className="skillName">Confluence</h2>
+                        </div>
+                        <div className="skillsIcon">
+                            <div className="iconDiv">
+                                <img src={postman_icon} alt="postman" className="icon"/>
+                            </div>
+                            <h2 className="skillName">Postman</h2>
                         </div>
                     </div>
                 </div>
