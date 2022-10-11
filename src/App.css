@@ -11,9 +11,11 @@
   background-color: rgb(17,105,160);
   border-bottom: 5px solid black;
   color: white;
-  position: fixed;
+  position: sticky;
+  opacity: 90%;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .navLink:hover {
@@ -54,19 +56,29 @@
   text-decoration: none;
 }
 
-
-
-/* About me section */
-.bodyHeader {
-  align-items: center;
-  font-family: cursive;
-  padding: 0px 10px;
-  margin-bottom: 10px;
-  text-align: center;
+/* Banner Section */
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 250px;
+  padding: 70px 0px 0px 50px;
 }
 
-#about {
-  padding-top: 80px;
+.position {
+  margin-bottom: 20px;
+}
+
+.position2 {
+  margin-bottom: 40px;
+}
+
+/* About me section */
+.aboutHeader {
+  font-family: cursive;
+  font-size: 30pt;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .aboutContent {
@@ -76,13 +88,11 @@
   font-size: 15pt;
   font-weight: bold;
   flex-wrap: column;
-  height: 400px;
-  padding: 30px 100px;
+  margin: 50px 100px 50px 100px;
 }
 
 .aboutLeft {
-  flex: 5;
-  width: 75%;
+  flex: 3;
 }
 
 .aboutRight {
@@ -96,14 +106,14 @@
   border-radius: 2%;
   display: inherit;
   justify-content: space-around;
-  height: 300px;
+  height: 350px;
   width: auto;
 }
 
 #slideShow2, #slideShow3, #slideShow4 {
   border-radius: 2%;
   display: none;
-  height: 300px;
+  height: 350px;
   width: auto;
 }
 
@@ -119,23 +129,54 @@
 
 
 /* Projects section */
-.projectsContent {
-  display: flex;
-  padding: 20px 100px;
-}
-
-.projectLeft {
-  flex: 2;
-}
-
-.projectRight {
-  flex: 3;
-}
-
-.projectHeader {
-  display: flex;
-  justify-content: space-between;
+.projectsHeader {
+  font-family: cursive;
+  font-size: 30pt;
+  padding: 20px;
   text-align: center;
+}
+
+/* Green Belt Tree Care Project */
+.gbtc {
+  /* background-color: rgb(1, 156, 1); */
+  display: flex;
+  gap: 30px;
+  height: 350px;
+  justify-content: space-between;
+  margin: 0px 50px 20px 50px;
+  padding: 30px;
+}
+
+.gbtcLeft {
+  /* color: whitesmoke; */
+  flex: 5;
+  font-size: 15pt;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.gbtcRight {
+  flex: 4;
+}
+
+.gbtcTitle {
+  font-family: cursive;
+  text-align: center;
+  font-size: 25pt;
+  margin-bottom: 20px;
+}
+
+.gbtcDesc {
+  margin-bottom: 15px;
+}
+
+.listItem {
+  margin-bottom: 10px;
+}
+
+.gbtcImg {
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1024px){
