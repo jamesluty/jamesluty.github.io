@@ -28,11 +28,10 @@ const About = () => {
 
 
     return (
-        <div>
-            <h1 className="bodyHeader" id="about">About Me</h1>
-            <hr/>
+        <div id="about">
             <div className="aboutContent">
                 <div className="aboutLeft">
+                    <h1 className="aboutHeader">About Me</h1>
                     <p className="smfont">Hi, my name is James Luty. I was born in Jacksonville, FL but grew up in Renton,
                         Washington. I started
                         out going to school for and working as an Automotive Technician.
