@@ -65,11 +65,11 @@
   padding: 70px 0px 0px 50px;
 }
 
-.position {
+.jobType1 {
   margin-bottom: 20px;
 }
 
-.position2 {
+.jobType2 {
   margin-bottom: 40px;
 }
 
@@ -129,7 +129,7 @@
 
 
 /* Projects section */
-.projectsHeader {
+.projectsBanner {
   background: fixed;
   background-size: cover;
   color: rgb(235, 235, 235);
@@ -220,7 +220,7 @@
 .skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 50px;
   justify-content: center;
   margin: 50px;
 }
@@ -237,14 +237,66 @@
 }
 
 .icon {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   margin-bottom: 20px;
 }
 
 .skillName {
   text-align: center;
 }
+
+/* Experience Section */
+.experienceBanner {
+  background: fixed;
+  background-size: cover;
+  color: rgb(235, 235, 235);
+  font-family: cursive;
+  font-size: 40pt;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.position {
+  margin: 40px 25%;
+}
+
+.positionDetails {
+  margin: 10px 0px;
+  font-size: 13pt;
+}
+
+/* Education Section */
+.educationBanner {
+  background: fixed;
+  background-size: cover;
+  color: rgb(235, 235, 235);
+  font-family: cursive;
+  font-size: 40pt;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.school {
+  margin: 40px 25%;
+}
+
+.educationDetails {
+  margin: 10px 0px;
+  font-size: 13pt;
+}
+
+/* Contact Me Section */
+.contactBanner {
+  background: fixed;
+  background-size: cover;
+  color: rgb(235, 235, 235);
+  font-family: cursive;
+  font-size: 40pt;
+  padding: 50px 0px;
+  text-align: center;
+}
+
 
 @media only screen and (max-width: 1024px){
   .sm {
