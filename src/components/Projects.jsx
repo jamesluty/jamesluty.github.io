@@ -8,7 +8,7 @@ import github_icon from '../imgs/github_icon.png'
 const Projects = () => {
     return (
         <div id="projects">
-            <h1 className="projectsHeader" style={{backgroundImage: `url(${project_bg})`}}>Projects</h1>
+            <h1 className="projectsBanner" style={{backgroundImage: `url(${project_bg})`}}>Projects</h1>
             <div className="projectContent">
                 {/* Green Belt Tree Care Project */}
                 <div className="project">
