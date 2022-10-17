@@ -26,6 +26,7 @@ const Skills = () => {
             <h1 className="skillsBanner" style={{backgroundImage: `url(${skills_bg})`}}>Skills</h1>
             <div>
                 <h1 className="skillsHeader">Languages</h1>
+                {/* Languages */}
                 <div className="skills">
                     <div className="skillsIcon">
                         <div className="iconDiv">
@@ -59,6 +60,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <hr />
+                {/* Frameworks/Libraries */}
                 <div>
                     <h1 className="skillsHeader">Frameworks/Libraries</h1>
                     <div className="skills">
@@ -101,6 +103,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <hr />
+                {/* Databases */}
                 <div>
                     <h1 className="skillsHeader">Databases</h1>
                     <div className="skills">
@@ -119,6 +122,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <hr />
+                {/* Tools */}
                 <div>
                     <h1 className="skillsHeader">Tools</h1>
                     <div className="skills">

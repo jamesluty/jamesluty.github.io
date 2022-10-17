@@ -30,6 +30,7 @@ const About = () => {
     return (
         <div id="about">
             <div className="aboutContent">
+                {/* About Me Section */}
                 <div className="aboutLeft">
                     <h1 className="aboutHeader">About Me</h1>
                     <p className="smfont">Hi, my name is James Luty. I was born in Jacksonville, FL but grew up in Renton,
@@ -41,6 +42,7 @@ const About = () => {
                         finally
                         found the software bootcamp program at Coding Dojo. </p>
                 </div>
+                {/* Image Slideshow */}
                 <div className="aboutRight smImg">
                     <img className="fade" src={hawaii} alt="hawaii_img" id="slideShow1"/>
                     <img className="fade" src={skydiving} alt="skydiving_img" id="slideShow2"/>

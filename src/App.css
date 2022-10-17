@@ -297,6 +297,22 @@
   text-align: center;
 }
 
+.contactSection {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.contactIcon {
+  width: 100px;
+}
+
+.footer {
+  font-family: cursive;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
 @media only screen and (max-width: 1024px){
   .sm {
