@@ -5,7 +5,6 @@ import seahawks from '../imgs/seahawks.jpg'
 import skydiving from '../imgs/skydiving.jpg'
 
 const About = () => {
-    
 
     useEffect(() => {
         let slideIdx = 0;
