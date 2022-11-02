@@ -248,7 +248,7 @@
 .skillName {
   display: none!important;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 8px;
   justify-content: center;
 }
 
@@ -259,15 +259,15 @@
     opacity: 20%;
   }
 
-  30% {
+  20% {
     display: inherit;
-    margin-top: 20px;
+    margin-top: 15px;
     opacity: 100%;
   }
 
   100% {
     display: inherit;
-    margin-top: 10px;
+    margin-top: 8px;
     opacity: 100%;
   }
 
