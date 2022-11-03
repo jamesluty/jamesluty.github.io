@@ -141,27 +141,56 @@
 
 .projectLinks {
   display: flex;
-  gap: 75px;
+  gap: 50px;
   justify-content: center;
-  margin: 30px 0px 20px 0px;
+  margin: 30px 0px 0px 0px;
+}
+
+.linkDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .linkIcon {
   width: 60px;
 }
 
+.projectText {
+  display: none;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.iconDiv {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+.iconDiv:hover {
+  margin-bottom: 0px;
+}
+
+/* .iconDiv:hover + .projectText {
+  animation: bounce .7s;
+  display: block;
+  text-align: center;
+} */
+
 .project {
   display: flex;
   gap: 30px;
   justify-content: space-between;
-  margin: 20px 50px 20px 50px;
-  padding: 30px;
+  margin: 20px 50px 0px 50px;
+  padding: 20px;
 }
 
 .projectLeft {
   flex: 5;
   font-size: 15pt;
-  padding: 20px;
+  padding: 30px;
 }
 
 .projectRight {
@@ -170,7 +199,7 @@
 }
 
 .projectImg {
-  height: 90%;
+  height: 100%;
   width: 100%;
 }
 
@@ -233,13 +262,6 @@
   width: 120px;
 }
 
-.iconDiv {
-  display: flex;
-  justify-content: center;
-  width: 100px;
-  margin-bottom: 40px;
-}
-
 .icon {
   height: 70px;
   width: 70px;
@@ -247,13 +269,7 @@
 
 .skillName {
   display: none;
-  text-align: center;
   margin-top: 8px;
-  justify-content: center;
-}
-
-.iconDiv:hover {
-  margin-bottom: 0px;
 }
 
 .iconDiv:hover + .skillName {
@@ -341,22 +357,20 @@
 }
 
 .contactIcon {
-  width: 100px;
+  width: 80px;
 }
 
 .contactDiv {
-  margin-bottom: 40px;
+  width: 90px;
+  margin-bottom: 10px;
 }
 
 .contactName {
   display: none;
+  margin-top: 8px;
 }
 
-.contactDiv:hover {
-  margin-bottom: 0px;
-}
-
-.contactDiv:hover .contactName {
+.iconDiv:hover + .contactName {
   animation: bounce .7s;
   display: inherit;
   text-align: center;
