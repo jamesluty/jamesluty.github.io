@@ -28,7 +28,6 @@ const Projects = () => {
                                 {/* <h4 className="projectText">Website</h4> */}
                             </div>
                         </div>
-                        <div></div>
                     </div>
                     <div className="projectRight">
                         <img src={gbtc} alt="green_belt_tree_care" className="projectImg"/>
