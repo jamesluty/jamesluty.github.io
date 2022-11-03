@@ -39,6 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "homepage": "https://jamesluty.github.io"
+=======
+  }
+>>>>>>> parent of 7bae46f (add homepage to package.json)
 }
