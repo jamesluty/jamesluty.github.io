@@ -378,4 +378,7 @@
   .smfont {
       font-size: 12pt;
   }
+  .navTitle {
+    text-align: center;
+  }
 }
