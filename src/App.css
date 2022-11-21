@@ -376,9 +376,9 @@
       display: none;
   }
   .smfont {
-      font-size: 12pt;
+      font-size: 15px;
   }
-  .smTitle {
-    text-align: center;
+  .navTitle {
+    justify-content: center;
   }
 }
