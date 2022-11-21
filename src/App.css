@@ -41,7 +41,6 @@
 
 .navbar a {
   color: whitesmoke;
-  font-family: cursive;
   font-size: 20px;
   text-decoration: none;
 }
@@ -74,7 +73,6 @@
 
 /* About me section */
 .aboutHeader {
-  font-family: cursive;
   font-size: 35px;
   margin-bottom: 30px;
   text-align: center;
@@ -132,7 +130,6 @@
   background: fixed;
   background-size: cover;
   color: rgb(235, 235, 235);
-  font-family: cursive;
   font-size: 45px;
   padding: 50px 0px;
   text-align: center;
@@ -213,7 +210,6 @@
 /* Green Belt Tree Care Project */
 .gbtcTitle {
   color: green;
-  font-family: cursive;
   font-size: 35px;
   margin-bottom: 20px;
   text-align: center;
@@ -222,7 +218,6 @@
 /* Outdoor Adventures Project */
 .outdoorsTitle {
   color: rgb(0, 0, 207);
-  font-family: cursive;
   font-size: 35px;
   margin-bottom: 30px;
   text-align: center;
@@ -233,7 +228,6 @@
   background: fixed;
   background-size: cover;
   color: rgb(235, 235, 235);
-  font-family: cursive;
   font-size: 45px;
   padding: 50px 0px;
   text-align: center;
@@ -302,7 +296,6 @@
   background: fixed;
   background-size: cover;
   color: rgb(235, 235, 235);
-  font-family: cursive;
   font-size: 45px;
   padding: 50px 0px;
   text-align: center;
@@ -322,7 +315,6 @@
   background: fixed;
   background-size: cover;
   color: rgb(235, 235, 235);
-  font-family: cursive;
   font-size: 45px;
   padding: 50px 0px;
   text-align: center;
@@ -342,7 +334,6 @@
   background: fixed;
   background-size: cover;
   color: rgb(235, 235, 235);
-  font-family: cursive;
   font-size: 45px;
   padding: 50px 0px;
   text-align: center;
@@ -376,7 +367,6 @@
 }
 
 .footer {
-  /* font-family: cursive; */
   margin-bottom: 10px;
   text-align: center;
 }
