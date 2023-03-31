@@ -65,6 +65,24 @@
 }
 
 @media only screen and (max-width: 1024px){
+  .smfont {
+    font-size: 17px;
+  }
+
+  .navTitle {
+    font-size: 15px;
+  }
+
+  .navLink {
+    padding: 20px 15px;
+  }
+
+  .navLink a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 900px){
   .lgNavbar {
     display: none;
   }
@@ -85,10 +103,6 @@
 
   .menuIcon {
     display: block;
-  }
-
-  .smfont {
-      font-size: 17px;
   }
 }
 
@@ -123,7 +137,7 @@
   font-size: 20px;
   font-weight: bold;
   flex-wrap: column;
-  margin: 50px 100px 50px 100px;
+  margin: 50px 100px;
 }
 
 .aboutLeft {
@@ -133,6 +147,8 @@
 .aboutRight {
   display: flex;
   justify-content: center;
+  height: 300px;
+  width: 300px;
   flex: 2;
 }
 
@@ -140,15 +156,15 @@
   border-radius: 2%;
   display: inherit;
   justify-content: space-around;
-  height: 350px;
-  width: auto;
+  /* height: 280px; */
+  width: 300px;
 }
 
 #slideShow2, #slideShow3, #slideShow4 {
   border-radius: 2%;
   display: none;
-  height: 350px;
-  width: auto;
+  /* height: 350px; */
+  /* width: 350px; */
 }
 
 .fade {
@@ -159,6 +175,33 @@
 @keyframes fade {
   from {opacity: .2}
   to {opacity: 1}
+}
+
+@media only screen and (max-width: 1024px){
+  .aboutContent {
+    margin: 50px 60px;
+    gap: 60px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .aboutContent{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .aboutRight{
+    width: 400px;
+  }
+
+  #slideShow1, #slideShow2, #slideShow3, #slideShow4{
+    height: 300px;
+    width: 100%;
+  }
+
+  #slideShow1{
+    width: 300px;
+  }
 }
 
 
@@ -223,14 +266,14 @@
 }
 
 .projectLeft {
-  flex: 5;
+  flex: 3;
   font-size: 20px;
   padding: 30px;
 }
 
 .projectRight {
   padding: 30px 20px;
-  flex: 4;
+  flex: 2;
 }
 
 .projectImg {
@@ -261,6 +304,8 @@
   margin-bottom: 30px;
   text-align: center;
 }
+
+
 
 /* Skills Section */
 .skillsBanner {

@@ -17,7 +17,7 @@ const Navbar = () => {
                 <h1>James Luty</h1>
             </div>
             <div className="lgNavbar">
-                <ul className="navWrapper sm">
+                <ul className="navWrapper">
                     <li className='navLink'>
                         <a href="#about">About</a>
                     </li>

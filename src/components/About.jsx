@@ -42,7 +42,7 @@ const About = () => {
                         found the software bootcamp program at Coding Dojo. </p>
                 </div>
                 {/* Image Slideshow */}
-                <div className="aboutRight smImg">
+                <div className="aboutRight">
                     <img className="fade" src={hawaii} alt="hawaii_img" id="slideShow1"/>
                     <img className="fade" src={skydiving} alt="skydiving_img" id="slideShow2"/>
                     <img className="fade" src={airplane} alt="airplane_img" id="slideShow3"/>
