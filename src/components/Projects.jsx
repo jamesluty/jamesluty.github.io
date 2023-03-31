@@ -22,10 +22,10 @@ const Projects = () => {
                         </ul>
                         <div className="projectLinks">
                             <div className="linkDiv">
-                                <div className="iconDi">
+                                <div className="iconDiv">
                                     <a href="http://www.greenbelttreecare.com" target="_blank" rel="noreferrer"><img className="linkIcon" src={website_icon} alt="website_icon"></img></a>
                                 </div>
-                                {/* <h4 className="projectText">Website</h4> */}
+                                <h4 className="projectText">Website</h4>
                             </div>
                         </div>
                     </div>
@@ -44,8 +44,18 @@ const Projects = () => {
                             <li className="listItem">Uses the National Park Service API to pull information for campsites and National Parks</li>
                         </ul>
                         <div className="projectLinks">
-                            <a href="http://outdoor-adventures.james-luty.com/" target="_blank" rel="noreferrer"><img className="linkIcon" src={website_icon} alt="website_icon"></img></a>
-                            <a href="https://github.com/jamesluty/national-park-service-information" target="_blank" rel="noreferrer"><img className="linkIcon" src={github_icon} alt="website_icon"></img></a>
+                            {/* <div className="linkDiv">
+                                <div className="iconDiv">
+                                    <a href="http://outdoor-adventures.james-luty.com/" target="_blank" rel="noreferrer"><img className="linkIcon" src={website_icon} alt="website_icon"></img></a>
+                                </div>
+                                <h4 className="projectText">Website</h4>
+                            </div> */}
+                            <div className="linkDiv">
+                                <div className="iconDiv">
+                                    <a href="https://github.com/jamesluty/national-park-service-information" target="_blank" rel="noreferrer"><img className="linkIcon" src={github_icon} alt="website_icon"></img></a>
+                                </div>
+                                <h4 className="projectText">Github</h4>
+                            </div>
                         </div>
                     </div>
                     <div className="projectRight">
