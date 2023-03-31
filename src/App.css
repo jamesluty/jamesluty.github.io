@@ -288,6 +288,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  height: 110px;
   justify-content: top;
   width: 120px;
 }
@@ -303,26 +304,24 @@
 }
 
 .iconDiv:hover + .skillName {
-  display: inherit;
   animation: bounce .7s;
+  display: inherit;
+  position: relative;
   text-align: center;
 }
 
 @keyframes bounce {
   0% {
-    display: inherit;
     margin-top: 0px;
     opacity: 20%;
   }
 
   20% {
-    display: inherit;
     margin-top: 15px;
     opacity: 100%;
   }
 
   100% {
-    display: inherit;
     margin-top: 8px;
     opacity: 100%;
   }
