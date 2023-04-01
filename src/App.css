@@ -66,7 +66,7 @@
 
 @media only screen and (max-width: 1024px){
   .smfont {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .navTitle {
@@ -123,6 +123,46 @@
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 900px){
+  .banner {
+    height: 200px;
+    padding: 40px 0px 0px 40px;
+  }
+
+  .jobType1 {
+    font-size: 27px;
+  }
+
+  .jobType2 {
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+
+  .jobSkills {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .banner {
+    height: 160px;
+    padding: 30px 20px;
+  }
+
+  .jobType1 {
+    font-size: 25px;
+  }
+
+  .jobType2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .jobSkills {
+    font-size: 20px;
+  }
+}
+
 /* About me section */
 .aboutHeader {
   font-size: 35px;
@@ -135,7 +175,6 @@
   display: flex;
   gap: 15%;
   font-size: 20px;
-  font-weight: bold;
   flex-wrap: column;
   margin: 50px 100px;
 }
@@ -204,6 +243,23 @@
   }
 }
 
+@media only screen and (max-width: 600px){
+  .aboutContent {
+    margin: 50px 20px;
+  }
+
+  .smfont {
+    font-size: 17px;
+  }
+
+  .aboutRight {
+    width: 100%;
+  }
+
+  #slideShow1, #slideShow2, #slideShow3, #slideShow4 {
+    height: 300px;
+  }
+}
 
 /* Projects section */
 .projectsBanner {
@@ -258,6 +314,7 @@
 }
 
 .project {
+  align-items: center;
   display: flex;
   gap: 30px;
   justify-content: space-between;
@@ -272,11 +329,16 @@
 }
 
 .projectRight {
-  padding: 30px 20px;
+  /* padding: 30px 20px; */
   flex: 2;
 }
 
 .projectImg {
+  /* height: 300px; */
+  width: 100%;
+}
+
+.projectVid {
   height: 100%;
   width: 100%;
 }
@@ -305,7 +367,97 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 1200px){
+  .projectLeft {
+    flex: 1;
+  }
 
+  .projectRight {
+    flex: 1;
+  }
+
+  .gbtcTitle, .outdoorsTitle {
+    font-size: 25px;
+  }
+
+  .projectDesc {
+    font-size: 18px;
+  }
+
+  .listItem {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .projectsBanner {
+    font-size: 45px;
+    padding: 40px 0px;
+  }
+
+  .project {
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 10px 20px 10px;
+  }
+
+  .gbtcTitle, .outdoorsTitle {
+    font-size: 30px;
+  }
+
+  .projectLeft {
+    padding: 0px;
+  }
+
+  .iconDiv {
+    margin-bottom: 5px;
+    width: 80px;
+  }
+
+  .iconDiv:hover {
+    margin-bottom: 5px;
+  }
+
+  .iconDiv:hover + .projectText {
+    animation: none;
+  }
+
+  .projectText {
+    display: block;
+    animation: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .projectsBanner {
+    font-size: 35px;
+    padding: 25px 0px;
+  }
+
+  .project {
+    margin: 0px 2px 10px 2px;
+  }
+
+  .projectLeft {
+    margin-bottom: 20px;
+  }
+
+  .gbtcTitle, .outdoorsTitle {
+    font-size: 24px;
+  }
+
+  .projectDesc {
+    font-size: 17px;
+  }
+
+  .listItem {
+    font-size: 17px;
+  }
+
+  .projectText {
+    font-size: 17px;
+  }
+}
 
 /* Skills Section */
 .skillsBanner {
@@ -374,6 +526,52 @@
   }
 }
 
+@media only screen and (max-width: 900px){
+  .skillsBanner {
+    font-size: 45px;
+    padding: 40px 0px;
+  }
+
+  .skillsHeader {
+    font-size: 25px;
+    margin: 15px 0px;
+  }
+  
+  .skills {
+    margin-bottom: 20px;
+  }
+  
+  .skillsIcon {
+    height: 80px;
+    width: 95px;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .skillName {
+    display: block;
+    font-size: 15px;
+  }
+
+  .iconDiv:hover + .skillName {
+    animation: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .skillsBanner {
+    font-size: 35px;
+    padding: 25px 0px;
+  }
+
+  .skillsIcon {
+    margin-bottom: 10px;
+  }
+}
+
 /* Experience Section */
 .experienceBanner {
   background: fixed;
@@ -385,12 +583,72 @@
 }
 
 .position {
-  margin: 40px 25%;
+  margin: 40px 200px;
 }
 
 .positionDetails {
   margin: 10px 0px;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+  .position {
+    margin: 40px 100px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .experienceBanner {
+    font-size: 45px;
+    padding: 40px 0px;
+  }
+
+  .position {
+    margin: 30px 50px;
+  }
+
+  .positionTitle {
+    font-size: 25px;
+  }
+
+  .position h2 {
+    font-size: 22px;
+  }
+
+  .position h3 {
+    font-size: 18px;
+  }
+
+  .positionDetails {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .experienceBanner {
+    font-size: 35px;
+    padding: 25px 0px;
+  }
+
+  .position {
+    margin: 20px 20px;
+  }
+
+  .positionTitle {
+    font-size: 22px;
+  }
+
+  .position h2 {
+    font-size: 20px;
+  }
+
+  .position h3 {
+    font-size: 17px;
+  }
+
+  .positionDetails {
+    font-size: 17px;
+  }
 }
 
 /* Education Section */
@@ -404,12 +662,64 @@
 }
 
 .school {
-  margin: 40px 25%;
+  margin: 40px 100px;
 }
 
 .educationDetails {
   margin: 10px 0px;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+  .school {
+    margin: 40px 100px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .educationBanner {
+    font-size: 45px;
+    padding: 40px 0px;
+  }
+
+  .school {
+    margin: 40px 50px;
+  }
+
+  .school h1 {
+    font-size: 25px;
+  }
+
+  .school h3 {
+    font-size: 18px;
+  }
+
+  .educationDetails {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .educationBanner {
+    font-size: 35px;
+    padding: 25px 0px;
+  }
+
+  .school {
+    margin: 20px 20px;
+  }
+
+  .school h1 {
+    font-size: 22px;
+  }
+
+  .school h3 {
+    font-size: 17px;
+  }
+
+  .educationDetails {
+    font-size: 17px;
+  }
 }
 
 /* Contact Me Section */
@@ -426,7 +736,7 @@
   display: flex;
   gap: 40px;
   justify-content: center;
-  margin: 50px 0px 0px 0px;
+  margin-top: 50px;
 }
 
 .contactIcon {
@@ -434,6 +744,7 @@
 }
 
 .contactDiv {
+  align-items: center;
   width: 90px;
   margin-bottom: 10px;
 }
@@ -441,6 +752,7 @@
 .contactName {
   display: none;
   margin-top: 8px;
+  text-align: center;
 }
 
 .iconDiv:hover + .contactName {
@@ -454,3 +766,42 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 900px){
+  .contactBanner {
+    font-size: 45px;
+    padding: 40px 0px;
+  }
+
+  .contactDiv {
+    margin-bottom: 20px;
+    width: 80px;
+  }
+
+  .contactSection {
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .contactName {
+    display: block;
+  }
+
+  .iconDiv:hover + .contactName {
+    animation: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .contactBanner {
+    font-size: 35px;
+    padding: 25px 0px;
+  }
+
+  .contactSection {
+    gap: 5px;
+  }
+
+  .contactName {
+    font-size: 15px;
+  }
+}

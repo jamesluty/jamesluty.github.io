@@ -1,9 +1,10 @@
-import React from 'react'
-import gbtc from '../imgs/gbtc.jpg'
-import project_bg from '../imgs/projects_bg.png'
-import website_icon from '../imgs/website_icon.png'
-import outdoor_adventure from '../imgs/outdoor_adventures.jpg'
-import github_icon from '../imgs/github_icon.png'
+import React from 'react';
+// import gbtc from '../imgs/gbtc.jpg';
+import project_bg from '../imgs/projects_bg.png';
+import website_icon from '../imgs/website_icon.png';
+import outdoor_adventure from '../imgs/outdoor_adventures.jpg';
+import github_icon from '../imgs/github_icon.png';
+import gbtc_vid from '../videos/gbtc_vid.mp4';
 
 const Projects = () => {
     return (
@@ -30,7 +31,8 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="projectRight">
-                        <img src={gbtc} alt="green_belt_tree_care" className="projectImg"/>
+                        <video src={gbtc_vid} type="video/mp4" autoplay="true" loop muted className="projectVid"></video>
+                        {/* <img src={gbtc} alt="green_belt_tree_care" className="projectImg"/> */}
                     </div>
                 </div>
                 <hr />
