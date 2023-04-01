@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.9128c0e0.css",
-    "main.js": "/static/js/main.6bf0d5c9.js",
+    "main.css": "/static/css/main.24d1f0e5.css",
+    "main.js": "/static/js/main.f43b135b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/contact_bg.jpg": "/static/media/contact_bg.98e714aed95f7e3c7b66.jpg",
+    "static/media/gbtc_vid.mp4": "/static/media/gbtc_vid.8eb4c199710f467ad4fb.mp4",
     "static/media/experience_bg.jpg": "/static/media/experience_bg.a3318fc5a1175be47818.jpg",
     "static/media/projects_bg.png": "/static/media/projects_bg.4786c1558cc6e47ad733.png",
-    "static/media/gbtc.jpg": "/static/media/gbtc.47165ed441ce4b82e4bf.jpg",
     "static/media/hawaii_pic.jpg": "/static/media/hawaii_pic.3284f315c2383c495393.jpg",
     "static/media/seahawks.jpg": "/static/media/seahawks.71f4a05bf4484b90fe98.jpg",
     "static/media/outdoor_adventures.jpg": "/static/media/outdoor_adventures.3704ca9b746adc07c44a.jpg",
@@ -39,12 +39,12 @@
     "static/media/email_icon.png": "/static/media/email_icon.51b08bcbb5af7a861c31.png",
     "static/media/java_icon.png": "/static/media/java_icon.962ff8f7cedcb0bad5c4.png",
     "index.html": "/index.html",
-    "main.9128c0e0.css.map": "/static/css/main.9128c0e0.css.map",
-    "main.6bf0d5c9.js.map": "/static/js/main.6bf0d5c9.js.map",
+    "main.24d1f0e5.css.map": "/static/css/main.24d1f0e5.css.map",
+    "main.f43b135b.js.map": "/static/js/main.f43b135b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9128c0e0.css",
-    "static/js/main.6bf0d5c9.js"
+    "static/css/main.24d1f0e5.css",
+    "static/js/main.f43b135b.js"
   ]
 }
