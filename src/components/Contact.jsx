@@ -4,7 +4,7 @@ import github_icon from '../imgs/github_icon.png';
 import linkedin_icon from '../imgs/linkedin_icon.png';
 import pdf_icon from '../imgs/pdf_icon.png';
 import email_icon from '../imgs/email_icon.png';
-import resume from '../files/Resume.pdf'
+import resume from '../files/James_Resume.pdf'
 
 const Contact = () => {
     return (
