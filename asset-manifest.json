@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f3d8e315.css",
-    "main.js": "/static/js/main.f43b135b.js",
+    "main.js": "/static/js/main.46f62315.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/contact_bg.jpg": "/static/media/contact_bg.98e714aed95f7e3c7b66.jpg",
     "static/media/gbtc_vid.mp4": "/static/media/gbtc_vid.8eb4c199710f467ad4fb.mp4",
@@ -12,9 +12,9 @@
     "static/media/outdoor_adventures.jpg": "/static/media/outdoor_adventures.3704ca9b746adc07c44a.jpg",
     "static/media/react_icon.png": "/static/media/react_icon.2f2532db663fd5ec5f95.png",
     "static/media/postman_icon.png": "/static/media/postman_icon.7fedeaff79947348538e.png",
+    "static/media/James_Resume.pdf": "/static/media/James_Resume.3dfc995436c64a68c595.pdf",
     "static/media/skills_bg.jpg": "/static/media/skills_bg.551b65ec78ca59d10f1b.jpg",
     "static/media/python_icon.png": "/static/media/python_icon.d8b377f05522bf35de36.png",
-    "static/media/Resume.pdf": "/static/media/Resume.a0c9ca9c2acbfa4fb490.pdf",
     "static/media/mysql_icon.png": "/static/media/mysql_icon.c10b5bc47b47f99e1ff1.png",
     "static/media/jenkins_icon.png": "/static/media/jenkins_icon.30a622da0fba6d8835b2.png",
     "static/media/education_bg.jpg": "/static/media/education_bg.86689e8bfdeef9f75480.jpg",
@@ -40,11 +40,11 @@
     "static/media/java_icon.png": "/static/media/java_icon.962ff8f7cedcb0bad5c4.png",
     "index.html": "/index.html",
     "main.f3d8e315.css.map": "/static/css/main.f3d8e315.css.map",
-    "main.f43b135b.js.map": "/static/js/main.f43b135b.js.map",
+    "main.46f62315.js.map": "/static/js/main.46f62315.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3d8e315.css",
-    "static/js/main.f43b135b.js"
+    "static/js/main.46f62315.js"
   ]
 }
