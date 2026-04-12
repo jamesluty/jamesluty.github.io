@@ -586,6 +586,10 @@
   margin: 40px 200px;
 }
 
+.position h2 {
+  font-style: italic;
+}
+
 .positionDetails {
   margin: 10px 0px;
   font-size: 20px;

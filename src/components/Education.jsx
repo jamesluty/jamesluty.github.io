@@ -5,10 +5,17 @@ const Education = () => {
     return (
         <div id="education">
             <h1 className="educationBanner" style={{backgroundImage: `url(${education_bg})`}}>Education</h1>
+            {/* SAFe Certification */}
+            <div className="school">
+                <h1>Scaled Agile Framework</h1>
+                <h3>SAFe Certification Course</h3>
+                <h3>Online | March, 2024</h3>
+                <p className="educationDetails">SAFe 6 Practioner Certification</p>
+            </div>
             {/* Coding Dojo */}
             <div className="school">
                 <h1>Coding Dojo</h1>
-                <h3>Web Development Course</h3>
+                <h3>Web Development</h3>
                 <h3>Online | March, 2022 - July, 2022</h3>
                 <p className="educationDetails">Certificate of Full Stack Development in Python, Java, and MERN</p>
             </div>

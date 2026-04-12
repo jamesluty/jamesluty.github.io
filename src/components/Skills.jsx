@@ -19,6 +19,7 @@ import jenkins_icon from '../imgs/jenkins_icon.png';
 import jira_icon from '../imgs/jira_icon.png';
 import confluence_icon from '../imgs/confluence_icon.png';
 import postman_icon from '../imgs/postman_icon.png';
+import selenium_icon from '../imgs/selenium_icon.png';
 
 const Skills = () => {
     return (
@@ -99,6 +100,12 @@ const Skills = () => {
                                 <img src={bootstrap_icon} alt="bootstrap" className="icon"/>
                             </div>
                             <h3 className="skillName">BootStrap</h3>
+                        </div>
+                        <div className="skillsIcon">
+                            <div className="iconDiv">
+                                <img src={selenium_icon} alt="selenium" className="icon"/>
+                            </div>
+                            <h3 className="skillName">Selenium</h3>
                         </div>
                     </div>
                 </div>
