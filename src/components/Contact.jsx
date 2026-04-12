@@ -36,7 +36,7 @@ const Contact = () => {
                     <h3 className="contactName">Resume</h3>
                 </div>
             </div>
-            <h2 className="footer">James Luty</h2>
+            <h2 className="footer">Built by James Luty</h2>
         </div>
     )
 }
