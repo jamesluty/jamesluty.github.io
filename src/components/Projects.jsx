@@ -22,12 +22,12 @@ const Projects = () => {
                             <li className="listItem">Incorporated EmailJS to allow users to send emails to request a free quote</li>
                         </ul>
                         <div className="projectLinks">
-                            <div className="linkDiv">
+                            {/* <div className="linkDiv">
                                 <div className="iconDiv">
                                     <a href="http://www.greenbelttreecare.com" target="_blank" rel="noreferrer"><img className="linkIcon" src={website_icon} alt="website_icon"></img></a>
                                 </div>
                                 <h4 className="projectText">Website</h4>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="projectRight">

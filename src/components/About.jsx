@@ -32,14 +32,9 @@ const About = () => {
                 {/* About Me Section */}
                 <div className="aboutLeft">
                     <h1 className="aboutHeader">About Me</h1>
-                    <p className="smfont">Hi, my name is James Luty. I was born in Jacksonville, FL but grew up in Renton,
-                        Washington. I started
-                        out going to school for and working as an Automotive Technician.
-                        I decided that wasn't the path I wanted to take in life and found a job as a manual tester for a
-                        software company. That's when I realized that this is what I wanted
-                        to do for the rest of my life. I started to teach myself how to program while still working and
-                        finally
-                        found the software bootcamp program at Coding Dojo. </p>
+                    <p className="smfont">I'm a Software Test Engineer with experience in manual and automated testing, test planning, defect management, and quality assurance within Agile development environments. My background includes developing Selenium-based automation frameworks, designing comprehensive test strategies, and collaborating with cross-functional teams to deliver reliable software solutions.
+                    <br/><br/>
+                    With hands-on experience in Java, Python, JavaScript, Selenium, Jenkins, Postman, and SQL databases, I combine strong technical skills with a quality-focused mindset. I am passionate about improving software reliability, streamlining testing processes, and helping teams deliver products that provide exceptional user experiences.</p>
                 </div>
                 {/* Image Slideshow */}
                 <div className="aboutRight">
